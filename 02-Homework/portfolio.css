@@ -1,0 +1,13 @@
+/* STYLE PORTFOLIO */
+
+
+/* Style navbar-brand */
+.navbar-brand{
+    background-color: teal;
+    color: white;
+}
+
+/* Style nav-item */
+.nav-item {
+    color: gray;
+}
