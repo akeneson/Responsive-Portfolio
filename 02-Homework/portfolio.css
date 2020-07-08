@@ -12,20 +12,25 @@ body{
 /* Style navbar-brand */
 .navbar-brand{
     background-color: teal;
+    /* trying to make the navbar white */
     color: white;
 }
 
 /* Style navbar */
 .navbar{
     background-color: white;
+    color: gray;
 }
 
 /* Style nav-item */
 .nav-item {
     color: gray;
 }
+header {
+    color: teal;
+}
 
-.WordGame, .RPGGame {
+.WordGame, .RPGGame, .TriviaGame, .InfoWidget, .RockPaper {
     width: 60%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
