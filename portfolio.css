@@ -3,9 +3,7 @@
 
 /* NEED BACKGROUND COLOR = GRAY */
 body{
-    padding-left: 60px;
-    align-content: center;
-    margin:25px;
+    
     background-color: gray;
 }
 
@@ -14,29 +12,38 @@ body{
     background-color: teal;
     /* trying to make the navbar white */
     color: white;
+    padding: 25px;
 }
 
 /* Style navbar */
 .navbar{
     background-color: white;
     color: gray;
+    border-bottom: solid 1px gray;
+    padding: 0!important;
 }
 
 /* Style nav-item */
-.nav-item {
+.nav-item a {
     color: gray;
 }
-header {
+.nav-item a:hover {
     color: teal;
 }
+
 .container {
     background-color: white;
+    padding: 10px;
 }
-.WordGame, .RPGGame, .TriviaGame, .InfoWidget, .RockPaper {
-    width: 40%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
+
+.title {
+    background-color: teal;
+    padding: 10px 0;
+    left: 0;
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    width: 100%;
 }
   
 div.container {
@@ -44,14 +51,9 @@ div.container {
     padding: 10px 20px;
 }
 
-@media (max-width: 640px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 980px) {
-
+footer{
+    background-color: white;
+    border-top: solid 6px teal;
+    height: 50px;
+    text-align: center;
 }

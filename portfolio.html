@@ -9,12 +9,12 @@
     <title>Amy Keneson Portfolio</title>
 
     <!-- CSS Reference -->
-    <link rel="stylesheet" href="portfolio.css">
+
 
     <!-- Link Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="portfolio.css">
     <!-- Meta tag for view point -->
     <meta name="viewport" content="width-device-width, initial scale=1">
 
@@ -23,78 +23,86 @@
 
 <!-- BODY section -->
 
+
 <body>
 
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><h1>Amy Keneson</h1></a>
-        <span class="navbar-text">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </span>
-    </nav>
+    <header>
+        <!-- NavBar with working links-->
+        <nav class="navbar">
+            <a class="navbar-brand" href="#">
+                <h1>Amy Keneson</h1>
+            </a>
+            <span class="navbar-text">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </span>
+        </nav>
+    </header>
     <!-- END NavBar -->
 
     <!-- Container -->
-    <div class="container-fluid">
-    <div class="row">
-        <header><h1> Portfolio</h1></header>
-    </div>
-    <div class="row">
-        <div class="col-6">
-            <div class="WordGame">
-                <img src="Assets/Images/WordGame.jpeg"
-                    alt="Word Game" style="width:100%">
- 
+    <div class="container my-5">
+        <div class="row">
+            <h1 class="mt-3 mb-5 border-bottom w-100 pb-2"> Portfolio</h1>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6 position-relative ">
+                <img src="https://images.pexels.com/photos/278887/pexels-photo-278887.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="Word Game" class="img-fluid" style="width:300px;height:300px;">
+                <div class="title"> Word Game</div>
+            </div>
+
+            <div class="col-md-6">
+                <img src="https://images.pexels.com/photos/1337247/pexels-photo-1337247.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="RPG Game" class="img-fluid" style="width:300px;height:300px;">
+                <div class="title"> RPG Game</div>
             </div>
         </div>
 
-        <div class="col-6">
-            <div class="RPGGame">
-                <img src="Assets/Images/RPGGame.jpeg"
-                    alt="RPG Game" style="width:100%">
-            </div>
-        </div>
-    </div>
+        <div class="row">
+            <div class="col-6">
 
-    <div class="row">
-        <div class="col-6">
-            <div class="TriviaGame">
-                <img src="Assets/Images/TriviaGame.jpeg" alt="Word Game" style="width:100%">
-        
-            </div>
-        </div>
+                <img src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="Trivia" class="img-fluid" style="width:300px;height:300px;">
+                <div class="title"> Trivia Game</div>
 
-        <div class="col-6">
-            <div class="InfoWidget">
-                <img src="assets/images/InfoWidget.jpeg" alt="RPG Game" style="width:100%">
-        
+            </div>
+
+            <div class="col-6">
+
+                <img src="https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="Info Widget" class="img-fluid" style="width:300px;height:300px;">
+                <div class="title"> Info Widget</div>
+
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-6">
-            <div class="RockPaper">
-                <img src="assets/Images/RockPaper.jpeg" alt="Word Game" style="width:100%">
-    
+        <div class="row">
+            <div class="col-6">
+
+                <img src="https://www.laserfiche.com/wp-content/uploads/2016/01/shutterstock_284660570-rs.jpg"
+                    alt="Rock Paper Sissors" class="img-fluid" style="width:300px;height:300px;">
+                <div class="title"> Rock Paper Sissors</div>
             </div>
         </div>
-    </div>
     </div>
 
     <!-- END Container -->
-
-
+    <!-- footer -->
+    <footer>
+        (C)2020 Amy Keneson
+    </footer>
 
 </body>
+
 
 </html>
