@@ -64,3 +64,11 @@ footer{
     height: 50px;
     text-align: center;
 }
+
+#sticky-footer {
+    flex-shrink: none;
+    background-color: white;
+    border-top: solid 6px teal;
+    height: 50px;
+    text-align: center;
+  }
