@@ -53,6 +53,10 @@ div.container {
 .form-group {
     text-align: left;
 }
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
 
 footer{
     background-color: white;
