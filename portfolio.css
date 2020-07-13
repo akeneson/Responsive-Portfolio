@@ -50,6 +50,9 @@ div.container {
     text-align: center;
     padding: 10px 20px;
 }
+.form-group {
+    text-align: left;
+}
 
 footer{
     background-color: white;
