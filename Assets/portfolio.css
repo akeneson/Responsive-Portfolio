@@ -53,6 +53,12 @@ div.container {
 .form-group {
     text-align: left;
 }
+
+.carousel-slide{
+    color: teal;
+}
+
+
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
