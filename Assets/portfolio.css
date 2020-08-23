@@ -5,13 +5,15 @@
 body{
     
     background-color: gray;
+    color: gray;
+    text-align: center;
 }
 
 /* Style navbar-brand */
 .navbar-brand{
-    background-color: teal;
+    background-color:powderblue;
     /* trying to make the navbar white */
-    color: white;
+    color: gray;
     padding: 25px;
 }
 
@@ -24,49 +26,67 @@ body{
 }
 
 /* Style nav-item */
-.nav-item a {
-    color: gray;
+.nav-item a, 
+.btn-link a{
+    color: gray !important;
 }
-.nav-item a:hover {
-    color: teal;
+.nav-item a:hover,
+.btn-link a:hover {
+    color: powderblue !important;
 }
 
 .container {
     background-color: white;
     padding: 10px;
+    align-content: center;
+    justify-self: center;
+    color: gray;
 }
 
 .title {
-    background-color: teal;
+    background-color:powderblue;
     padding: 10px 0;
     left: 0;
     position: absolute;
     bottom: 30px;
-    color: white;
+    color: gray;
     width: 100%;
 }
   
 div.container {
     text-align: center;
     padding: 10px 20px;
+    align-content: center;
+    justify-self: center;
+    color:gray
 }
 .form-group {
     text-align: left;
 }
 
-.carousel-slide{
-    color: teal;
-}
+.card{
+    background-color: powderblue;
+    padding: 50px;
+    text-align: center;
+    color: gray;
+    margin: 50px;
+    align-self: center;
+    justify-self: center;
 
+}
+.about-me{
+    background-color: white;
+}
 
 .card-horizontal {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 auto;
   }
 
 footer{
     background-color: white;
-    border-top: solid 6px teal;
+    color: gray;
+    border-top: solid 6px powderblue;
     height: 50px;
     text-align: center;
 }
@@ -74,7 +94,7 @@ footer{
 #sticky-footer {
     flex-shrink: none;
     background-color: white;
-    border-top: solid 6px teal;
-    height: 50px;
+    border-top: solid 6px powderblue;
+    height: 20px;
     text-align: center;
   }
